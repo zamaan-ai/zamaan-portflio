@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650">
+  <defs>
+    <linearGradient id="port-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#140f18"/>
+      <stop offset="100%" stop-color="#241525"/>
+    </linearGradient>
+    <linearGradient id="amber-glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="650" fill="url(#port-bg)"/>
+  <g font-family="'Onest', -apple-system, sans-serif" fill="#f5f3f4">
+    <text x="60" y="68" font-size="20" font-weight="600" letter-spacing="4" fill="#fbbf24">DEVELOPER PORTFOLIO</text>
+    <text x="60" y="102" font-size="13" font-weight="400" fill="#a89a9f" letter-spacing="1.5">3D WEBGL GRAPHICS · SHADER PIPELINES · INTERACTIVE VOLUMES</text>
+
+    <!-- Main board container -->
+    <rect x="52" y="140" width="796" height="450" rx="14" fill="#1b1220" stroke="#482750" stroke-width="1.5"/>
+    
+    <!-- Top toolbar inside card -->
+    <rect x="52" y="140" width="796" height="52" rx="14" fill="#291830"/>
+    <circle cx="82" cy="166" r="6" fill="#ef4444"/>
+    <circle cx="102" cy="166" r="6" fill="#f59e0b"/>
+    <circle cx="122" cy="166" r="6" fill="#10b981"/>
+    
+    <text x="156" y="171" font-size="13" font-weight="500" fill="#fce7f3">Interactive 3D Realm • Three.js Shaders • 60 FPS Target • Responsive Vitals</text>
+    <rect x="710" y="152" width="120" height="28" rx="6" fill="#4a1d48"/>
+    <text x="770" y="171" font-size="12" font-weight="600" fill="#f472b6" text-anchor="middle">RENDER: 60 FPS</text>
+
+    <!-- 3D perspective wireframe illustration -->
+    <g transform="translate(80, 220)">
+      <!-- Perspective ground grid -->
+      <polygon points="20,180 340,180 260,20 100,20" fill="#24142d" stroke="#5a2e63" stroke-width="1.2"/>
+      <line x1="60" y1="180" x2="120" y2="20" stroke="#482250" stroke-width="1"/>
+      <line x1="120" y1="180" x2="150" y2="20" stroke="#482250" stroke-width="1"/>
+      <line x1="180" y1="180" x2="180" y2="20" stroke="#f59e0b" stroke-width="1.5"/>
+      <line x1="240" y1="180" x2="210" y2="20" stroke="#482250" stroke-width="1"/>
+      <line x1="300" y1="180" x2="240" y2="20" stroke="#482250" stroke-width="1"/>
+
+      <!-- Moon / Torii Gate in background -->
+      <circle cx="180" cy="50" r="32" fill="#fed7aa" opacity="0.85"/>
+      <path d="M140 70 L220 70 M145 78 L215 78 M155 70 L155 120 M205 70 L205 120" stroke="#ef4444" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- Camera trajectory vector -->
+      <path d="M40 160 Q180 120 180 80" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-dasharray="5 4"/>
+      <circle cx="40" cy="160" r="5" fill="#38bdf8"/>
+      <text x="50" y="150" font-size="11" fill="#38bdf8">Cam [0, 2.5, 30]</text>
+      <circle cx="180" cy="80" r="5" fill="#38bdf8"/>
+      <text x="195" y="85" font-size="11" fill="#38bdf8">Target [0, 8, -34]</text>
+
+      <text x="180" y="210" font-size="12" fill="#cbd5e1" text-anchor="middle">Scroll-Driven Camera Rig &amp; Dynamic Shaders</text>
+    </g>
+
+    <!-- Right metrics and specs column -->
+    <rect x="470" y="215" width="360" height="235" rx="10" fill="#231328" stroke="#4a2550"/>
+    <text x="495" y="248" font-size="12" font-weight="600" fill="#c084fc" letter-spacing="1">GRAPHICS &amp; ENGINE SPECS</text>
+    
+    <rect x="495" y="265" width="155" height="70" rx="6" fill="#2d1733"/>
+    <text x="510" y="290" font-size="11" fill="#a89a9f">Renderer</text>
+    <text x="510" y="318" font-size="16" font-weight="700" fill="#fed7aa">Three.js WebGL</text>
+
+    <rect x="660" y="265" width="155" height="70" rx="6" fill="#2d1733"/>
+    <text x="675" y="290" font-size="11" fill="#a89a9f">Post Processing</text>
+    <text x="675" y="318" font-size="16" font-weight="700" fill="#fed7aa">Bloom &amp; Grain</text>
+
+    <rect x="495" y="345" width="155" height="70" rx="6" fill="#2d1733"/>
+    <text x="510" y="370" font-size="11" fill="#a89a9f">Device Support</text>
+    <text x="510" y="398" font-size="16" font-weight="700" fill="#fed7aa">Mobile &amp; Desktop</text>
+
+    <rect x="660" y="345" width="155" height="70" rx="6" fill="#2d1733"/>
+    <text x="675" y="370" font-size="11" fill="#a89a9f">Core Web Vitals</text>
+    <text x="675" y="398" font-size="16" font-weight="700" fill="#10b981">100 / 100 Perf</text>
+
+    <!-- Bottom summary banner -->
+    <rect x="80" y="475" width="750" height="50" rx="8" fill="#221128" stroke="#482552"/>
+    <text x="100" y="505" font-size="13" font-weight="500" fill="#f472b6">React.js · Three.js · HTML5/CSS3 · Git · Responsive Web Design · Shaders &amp; Shims</text>
+  </g>
+</svg>

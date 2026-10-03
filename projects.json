@@ -1,0 +1,149 @@
+[
+  {
+    "id": "dsa-visualizer",
+    "title": "DSA Visualizer",
+    "discipline": "Algorithms & Data Structures",
+    "note": "Interactive data structures & sorting algorithms in real time.",
+    "deck": "Engineered an interactive web-based visualizer demonstrating sorting algorithms and linear/non-linear data structures in real time with step-by-step state inspection.",
+    "stack": "React.js · CSS3 · JavaScript · Algorithms",
+    "status": "Interactive Web Application",
+    "focus": "Custom array generation · variable animation speeds · step-by-step inspection",
+    "detail": "Built interactive visualizations for sorting (Quick, Merge, Heap, Bubble) and data structures (Binary Trees, Graphs, Linked Lists). Features custom input generation, variable execution playback, and algorithmic complexity metrics.",
+    "chapters": [
+      "Visualizing State",
+      "Sorting & Traversals",
+      "Interactive Playback"
+    ],
+    "repo": "dsa-visualizer",
+    "private": false,
+    "live": "https://github.com/zamaan-ai/dsa-visualizer",
+    "color": "#182a43",
+    "foil": "#d9a86d"
+  },
+  {
+    "id": "iot-smart-governance",
+    "title": "IoT Smart Governance",
+    "discipline": "Civic Tech & Distributed Systems",
+    "note": "AI-integrated municipal monitoring and automated reporting.",
+    "deck": "Architecting an AI-integrated IoT solution for municipal infrastructure monitoring, automated anomaly reporting, and telemetry aggregation pipelines.",
+    "stack": "Express.js · Node.js · AI · IoT · Cloud",
+    "status": "Distributed Architecture & Cloud Telemetry",
+    "focus": "Telemetry pipelines · sensor aggregation · automated issue triage",
+    "detail": "Designed high-throughput telemetry ingestion pipelines using Node.js and Express to aggregate sensor streams across municipal zones, improving governance workflows, automated incident reporting, and civic triage.",
+    "chapters": [
+      "Telemetry & Ingestion",
+      "AI Anomaly Detection",
+      "Governance Workflows"
+    ],
+    "repo": "iot-smart-governance",
+    "private": false,
+    "live": "https://github.com/zamaan-ai",
+    "color": "#213944",
+    "foil": "#d2e4e6"
+  },
+  {
+    "id": "portfolio",
+    "title": "Developer Portfolio",
+    "discipline": "Creative Web & 3D Graphics",
+    "note": "Immersive 3D WebGL realm and dynamic portfolio experience.",
+    "deck": "Designed, built, and deployed an ultra-responsive, immersive developer portfolio showcasing technical projects, interactive 3D WebGL graphics, and tactile field guides.",
+    "stack": "Three.js · WebGL · React.js · CSS3 · Git",
+    "status": "Production 3D Experience",
+    "focus": "Three.js shaders · 60fps WebGL pipeline · tactile 3D field guides",
+    "detail": "Engineered custom GLSL shaders, camera scroll interpolation, depth-buffered post-processing, and dynamic 3D asset instantiation to create a memorable personal portal.",
+    "chapters": [
+      "The 3D Scene",
+      "Shader Craft",
+      "Interactive Volumes"
+    ],
+    "repo": "portfolio",
+    "private": false,
+    "live": "https://github.com/zamaan-ai",
+    "color": "#795337",
+    "foil": "#ecd1a4"
+  },
+  {
+    "id": "cognifyz-engineering",
+    "title": "Cognifyz Engineering Suite",
+    "discipline": "Software Engineering",
+    "note": "Core software modules & hands-on engineering workflows.",
+    "deck": "Developed hands-on software modules and application components during a competitive software engineering internship at Cognifyz IT Solutions.",
+    "stack": "Java · JavaScript · OOP · Git · REST APIs",
+    "status": "Internship Engineering Modules",
+    "focus": "Application building · modular workflows · collaborative delivery",
+    "detail": "Built full-stack software modules adhering to production conventions, unit testing, and team-driven Git workflows selected through a rigorous competitive evaluation.",
+    "chapters": [
+      "Modular Architecture",
+      "Core Programming",
+      "Collaborative Workflows"
+    ],
+    "repo": "cognifyz-engineering",
+    "private": false,
+    "live": "https://github.com/zamaan-ai",
+    "color": "#414c32",
+    "foil": "#e0e3b4"
+  },
+  {
+    "id": "java-full-stack",
+    "title": "Java Full Stack Enterprise",
+    "discipline": "Enterprise Systems",
+    "note": "Full-stack architecture, backend API integration, and modular UI.",
+    "deck": "Engineered robust backend API integration, structured debugging pipelines, and modular frontend components within modern full-stack workflows.",
+    "stack": "Java · Spring Boot · REST APIs · SQL · Git",
+    "status": "Full Stack Architecture",
+    "focus": "Backend API integration · structured debugging · design best practices",
+    "detail": "Focused on enterprise design patterns, clean database abstractions with SQL, RESTful endpoints, and deterministic state management between client and server.",
+    "chapters": [
+      "Enterprise OOP",
+      "API Integration",
+      "Database Design"
+    ],
+    "repo": "java-full-stack-suite",
+    "private": false,
+    "live": "https://github.com/zamaan-ai",
+    "color": "#1537a1",
+    "foil": "#dbe8f1"
+  },
+  {
+    "id": "hackathon-platform",
+    "title": "Hackathon Innovation Platform",
+    "discipline": "System Architecture & AI",
+    "note": "National finalist out of 1,600+ teams in Metamorph 2.0 & SIH.",
+    "deck": "Nominated in Smart India Hackathon (SIH) internal rounds and selected as a Top 36 Finalist out of 1,600+ competitive teams across India in Metamorph 2.0.",
+    "stack": "Full Stack · AI Integration · C++ · Cloud Basics",
+    "status": "Top 36 Finalist / 1,600+ Teams",
+    "focus": "Rapid prototyping · high-concurrency systems · competitive hackathon",
+    "detail": "Developed rapid proof-of-concept architectures addressing real-world problem statements, evaluated on scalability, real-time feasibility, and technical execution.",
+    "chapters": [
+      "Hackathon Challenge",
+      "Scalable Prototype",
+      "Finalist Pitch"
+    ],
+    "repo": "hackathon-innovation",
+    "private": false,
+    "live": "https://github.com/zamaan-ai",
+    "color": "#713946",
+    "foil": "#efb0aa"
+  },
+  {
+    "id": "algorithmic-engine",
+    "title": "Algorithmic Engine & DSA",
+    "discipline": "Data Structures & Algorithms",
+    "note": "Daily algorithmic problem solving in C++ & Java.",
+    "deck": "Deep exploration of computational efficiency, dynamic programming, tree/graph algorithms, and memory management through hundreds of solved algorithmic challenges.",
+    "stack": "C++ · Java · Algorithms · LeetCode",
+    "status": "Active Problem Solver & LeetCode Daily",
+    "focus": "Time & space complexity · advanced data structures · C++ STL",
+    "detail": "Rigorous daily practice analyzing asymptotic performance, optimizing cache locality, and designing optimal solutions for complex algorithmic problems.",
+    "chapters": [
+      "Complexity Analysis",
+      "Graph & DP Mastery",
+      "Algorithmic Precision"
+    ],
+    "repo": "leetcode-dsa-solutions",
+    "private": false,
+    "live": "https://github.com/zamaan-ai",
+    "color": "#b95530",
+    "foil": "#ffdea0"
+  }
+]
